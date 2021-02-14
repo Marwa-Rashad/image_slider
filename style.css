@@ -1,0 +1,45 @@
+button img {
+    width: 20px;
+    height: 20px;
+}
+h1 {
+    color: #0011B2;
+margin: 0;}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 5px;
+    margin: 10px;
+}
+h2 {
+    color: #0011B2;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+    .container img {
+        width: 400px;
+        height: 400px;
+    }
+    .container button img {
+        width: 10px;
+        height: 10px;
+        margin: 5px;
+    }
+    h1, h2 {
+        padding: 0;
+        margin: 2px;
+    }
+}
